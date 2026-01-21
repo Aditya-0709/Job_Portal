@@ -6,12 +6,13 @@
 }
 
 body {
-    background: #f4f6f9;
-    color: #333;
+    background: rgb(244, 246, 249);
+    color: rgb(51, 51, 51);
 }
+
 nav {
-    background: #1e3a8a;
-    color: white;
+    background: rgb(30, 58, 138);
+    color: rgb(255, 255, 255);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
@@ -25,7 +26,7 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
@@ -34,10 +35,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Hero Section */
 .hero {
-    background: #2563eb;
-    color: white;
+    background: rgb(37, 99, 235);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 60px 20px;
 }
@@ -61,7 +61,7 @@ nav a:hover {
 
 .search-box button {
     padding: 10px 20px;
-    background: #facc15;
+    background: rgb(250, 204, 21);
     border: none;
     font-weight: bold;
     cursor: pointer;
@@ -69,10 +69,9 @@ nav a:hover {
 }
 
 .search-box button:hover {
-    background: #eab308;
+    background: rgb(234, 179, 8);
 }
 
-/* Top Skills */
 section h2 {
     margin-bottom: 15px;
 }
@@ -84,21 +83,20 @@ section {
 section button {
     margin: 5px;
     padding: 8px 15px;
-    border: 1px solid #2563eb;
-    background: white;
-    color: #2563eb;
+    border: 1px solid rgb(37, 99, 235);
+    background: rgb(255, 255, 255);
+    color: rgb(37, 99, 235);
     border-radius: 20px;
     cursor: pointer;
 }
 
 section button:hover {
-    background: #2563eb;
-    color: white;
+    background: rgb(37, 99, 235);
+    color: rgb(255, 255, 255);
 }
 
-/* Jobs */
 .jobs {
-    background: #eef2ff;
+    background: rgb(238, 242, 255);
 }
 
 .job-container {
@@ -108,7 +106,7 @@ section button:hover {
 }
 
 .job-card {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 20px;
     width: 250px;
     border-radius: 10px;
@@ -127,20 +125,19 @@ section button:hover {
 .job-card button {
     margin-top: 10px;
     padding: 8px 15px;
-    background: #2563eb;
-    color: white;
+    background: rgb(37, 99, 235);
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .job-card button:hover {
-    background: #1e40af;
+    background: rgb(30, 64, 175);
 }
 
-/* Companies */
 .companies {
-    background: white;
+    background: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -153,21 +150,20 @@ section button:hover {
 
 .company-list div {
     padding: 15px 20px;
-    background: #f1f5f9;
+    background: rgb(241, 245, 249);
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
 }
 
 .company-list div:hover {
-    background: #2563eb;
-    color: white;
+    background: rgb(37, 99, 235);
+    color: rgb(255, 255, 255);
 }
 
-/* Footer */
 footer {
-    background: #1e3a8a;
-    color: white;
+    background: rgb(30, 58, 138);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
     margin-top: 40px;
