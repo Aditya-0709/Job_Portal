@@ -103,6 +103,36 @@ section h2 {
 
 /* JOBS */
 
+#addJobBtn{
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#addJobBtn:hover{
+    background: #1e40af;
+}
+
+
+.delete-btn{
+    margin-top: 5px;
+    padding: 8px 15px;
+    background: #dc2626;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background: #b91c1c;
+}
+
+
 .jobs {
     background: #eef2ff;
 }

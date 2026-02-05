@@ -6,6 +6,7 @@
     <title>Job Portal</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
@@ -41,16 +42,24 @@
     <button>Java Developer</button>
 </section>
 
+<section class="add-job">
+    <h2>Add Job</h2>
+    <input id="title" placeholder="Job Title">
+    <input id="company" placeholder="Company">
+    <input id="location" placeholder="Location">
+    <button id="addJobBtn">Add Job</button>
+</section>
+
 <section class="jobs">
     <h2>Latest Jobs</h2>
 
     <div class="job-container">
-
         <div class="job-card">
             <h3>Frontend Developer</h3>
             <p>Company: Google</p>
             <p>Location: Bangalore</p>
             <button class="apply-btn">Apply Now</button>
+            <button class="delete-btn">Delete</button>
         </div>
 
         <div class="job-card">
@@ -58,6 +67,7 @@
             <p>Company: Amazon</p>
             <p>Location: Hyderabad</p>
             <button class="apply-btn">Apply Now</button>
+            <button class="delete-btn">Delete</button>
         </div>
 
         <div class="job-card">
@@ -65,14 +75,17 @@
             <p>Company: Adobe</p>
             <p>Location: Remote</p>
             <button class="apply-btn">Apply Now</button>
+            <button class="delete-btn">Delete</button>
         </div>
-
     </div>
 </section>
 
+<h3 style="text-align:center; margin-top:20px;">
+    Total Jobs: <span id="jobCount">3</span>
+</h3>
+
 <section class="companies">
     <h2>Top Companies</h2>
-
     <div class="company-list">
         <div>Google</div>
         <div>Amazon</div>
@@ -84,6 +97,8 @@
 <footer>
     <p>© 2026 JobHunt. All rights reserved.</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
