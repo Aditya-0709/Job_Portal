@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 
-/* NAVBAR */
+
 
 nav {
     background: #1e3a8a;
@@ -37,7 +37,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* HERO */
 
 .hero {
     background: #2563eb;
@@ -76,7 +75,7 @@ nav a:hover {
     background: #eab308;
 }
 
-/* SECTIONS */
+
 
 section {
     padding: 30px;
@@ -101,7 +100,6 @@ section h2 {
     color: white;
 }
 
-/* JOBS */
 
 #addJobBtn{
     padding: 10px 20px;
@@ -170,7 +168,7 @@ section h2 {
     background: #15803d;
 }
 
-/* COMPANIES */
+
 
 .companies {
     text-align: center;
@@ -204,4 +202,30 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 40px;
+}
+
+
+.add-job {
+    background: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.add-job input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+.add-job input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37,99,235,0.3);
 }

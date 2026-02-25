@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Portal</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
@@ -25,21 +23,11 @@
     <p>Search thousands of jobs from top companies</p>
 
     <div class="search-box">
-        <input type="text" placeholder="Job title or keyword">
-        <input type="text" placeholder="Location">
-        <button>Search</button>
+        <input type="text" id="searchTitle" placeholder="Job title or keyword">
+        <input type="text" id="searchLocation" placeholder="Location">
+        <button id="searchBtn">Search</button>
+        <button id="resetBtn">Reset</button>
     </div>
-</section>
-
-<section class="skills">
-    <h2>Top Skills</h2>
-    <button>Full Stack</button>
-    <button>Video Editing</button>
-    <button>AI/ML</button>
-    <button>DevOps</button>
-    <button>Cloud</button>
-    <button>Python</button>
-    <button>Java Developer</button>
 </section>
 
 <section class="add-job">
@@ -54,6 +42,7 @@
     <h2>Latest Jobs</h2>
 
     <div class="job-container">
+
         <div class="job-card">
             <h3>Frontend Developer</h3>
             <p>Company: Google</p>
@@ -70,35 +59,17 @@
             <button class="delete-btn">Delete</button>
         </div>
 
-        <div class="job-card">
-            <h3>UI/UX Designer</h3>
-            <p>Company: Adobe</p>
-            <p>Location: Remote</p>
-            <button class="apply-btn">Apply Now</button>
-            <button class="delete-btn">Delete</button>
-        </div>
     </div>
 </section>
 
 <h3 style="text-align:center; margin-top:20px;">
-    Total Jobs: <span id="jobCount">3</span>
+    Total Jobs: <span id="jobCount">2</span>
 </h3>
-
-<section class="companies">
-    <h2>Top Companies</h2>
-    <div class="company-list">
-        <div>Google</div>
-        <div>Amazon</div>
-        <div>Microsoft</div>
-        <div>Meta</div>
-    </div>
-</section>
 
 <footer>
     <p>© 2026 JobHunt. All rights reserved.</p>
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
